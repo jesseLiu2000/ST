@@ -159,7 +159,7 @@ with torch.no_grad():
 
         # expert_expand = np.array(list(expert_dict.values()))
         # break
-        torch.cuda.set_device("cuda:0")
+        # torch.cuda.set_device("cuda:0")
         torch.cuda.set_device(device2)
         torch.cuda.empty_cache()
         # del weight_gate
